@@ -1,0 +1,13 @@
+<section class="container-fluid">
+  <section class="row">
+    <section class="col-md-3">
+      <p class="lead">Data For Charts</p>
+      <pre>{{chartData | json}}</pre>
+    </section><br/><br/><br/>
+    <section class="col-md-8">
+      <section class="chart-box">
+          <div [chart]="chart" style="width: 100%; height: 100%"></div>
+      </section>
+    </section>
+  </section>
+</section>

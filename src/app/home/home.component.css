@@ -1,0 +1,13 @@
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.flex-container button {
+    margin-right: 10px;
+}
+
+.chart-box {
+    border: 1px solid #888;
+    height: 700px;
+}
